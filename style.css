@@ -1,0 +1,99 @@
+*{
+    background-color: #fff;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #767676;
+}
+
+.lobeTour{
+    background-color: white;
+}
+
+.image-bb {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 2rem;
+}
+
+
+
+#text{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #767676;
+
+}
+
+.img-center {
+    max-width: 80%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
+    border-radius: 20px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.img-center:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+    
+#nav li a {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#nav li a:hover {
+    color: #04ddb2; /* Change to your desired hover color */
+}
+
+button.btn {
+    background-color: #04ddb2;
+    color: whitesmoke;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #02b38c; /* Darker shade of the original color */
+    color: #ffffff; /* Change text color on hover */
+}
+
+.text-img{
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    --tw-text-opacity: 1;
+    color: rgb(50 50 50 / var(--tw-text-opacity));
+}
+
+
+
+#btn-2 {
+    background-color: #04ddb2;
+    color: whitesmoke;
+    display: block; /* Make the button a block element */
+    margin: 20px auto; /* Center the button and add margin */
+    text-align: center;
+    align-items: center; /* Center the text inside the button */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 25%;
+}
+
+#btn-2:hover {
+    background-color: #02b38c; /* Darker shade of the original color */
+    color: #ffffff; /* Change text color on hover */
+}
+
+h5{
+    color: #767676;
+}
